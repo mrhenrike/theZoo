@@ -109,7 +109,7 @@ class vars:
     # ASCII Art is a must...
     screen = random.randrange(1, 6)
 
-    if screen is 1:
+    if screen == 1:
         maldb_banner = "\n"
         maldb_banner += "        sMMs              oMMy      \n"
         maldb_banner += "        :ooooo/        /ooooo:      \n"
@@ -127,7 +127,7 @@ class vars:
         maldb_banner += "                                 maintained by: " + ', '.join(maintainers) + "\n"
         maldb_banner += "                                 github: " + giturl + "\n\n"
 
-    elif screen is 2:
+    elif screen == 2:
         maldb_banner = "           ____.----. \n"
         maldb_banner += " ____.----'          \ \n"
         maldb_banner += "  \                    \ \ttheZoo " + version + "\n"
@@ -148,7 +148,7 @@ class vars:
         maldb_banner += "           `-.  |      __.-'\n"
         maldb_banner += "              `-|__.--'\n"
 
-    elif screen is 3:
+    elif screen == 3:
         maldb_banner = "           __  ___      __                               ____  ____\n"
         maldb_banner += "          /  |/  /___ _/ /      ______ _________        / __ \/ __ )\n"
         maldb_banner += "         / /|_/ / __ `/ / | /| / / __ `/ ___/ _ \______/ / / / __ |\n"
@@ -160,7 +160,7 @@ class vars:
         maldb_banner += "                                maintained by: " + ', '.join(maintainers) + "\n"
         maldb_banner += "                                github: " + giturl + "\n\n"
 
-    elif screen is 4:
+    elif screen == 4:
         maldb_banner = "\n"
         maldb_banner += ".       ..       .\n"
         maldb_banner += "|\      ||      /|\n"
@@ -211,7 +211,7 @@ class vars:
         maldb_banner += " .==============.\n"
         maldb_banner += ".================.\n\n"
 
-    elif screen is 5:
+    elif screen == 5:
         maldb_banner = "\n"
         maldb_banner += "_______________________________________\n"
         maldb_banner += "|\ ___________________________________ /|\n"
